@@ -2,7 +2,7 @@ How to build the code
 =====================
 
 Checkout the code from the git repository:
-https://github.com/xLAva/JediOutcastLinux.git
+https://codeberg.org/xLAva/JediOutcastLinux.git
 
 
 

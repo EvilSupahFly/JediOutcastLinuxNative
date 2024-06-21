@@ -2,7 +2,7 @@ JediOutcastLinux
 ================
 
 Jedi Knight II: Jedi Outcast (Single Player Linux Port).
-https://github.com/xLAva/JediOutcastLinux
+https://codeberg.org/xLAva/JediOutcastLinux
 
 The current state is playable without any major problems.
 - loading/saving and a lot of other open issues are fixed
