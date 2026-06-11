@@ -296,7 +296,6 @@ void GL_CheckErrors( void ) {
     ri.Error( ERR_FATAL, "GL_CheckErrors: %s", s );
 }
 
-
 /*
 ** R_GetModeInfo
 */
@@ -320,7 +319,13 @@ vidmode_t r_vidModes[] =
     { "Mode  8: 1280x1024",		1280,	1024,	1 },
     { "Mode  9: 1600x1200",		1600,	1200,	1 },
     { "Mode 10: 2048x1536",		2048,	1536,	1 },
-    { "Mode 11: 856x480 (wide)",856,	480,	1 }
+    { "Mode 11: 856x480 (wide)",	856,	480,	1 },
+	{ "Mode 12: 1280x720 (wide)",	1280,	720,	1 }, // New wide mode added
+	{ "Mode 13: 1920x1080 (wide)",	1920,	1080,	1 }, // New wide mode added
+	{ "Mode 14: 2560x1440 (wide)",	2560,	1440,	1 }, // New wide mode added
+	{ "Mode 15: 3840x2160 (wide)",	3840,	2160,	1 }, // New wide mode added
+	{ "Mode 16: 5120x2880 (wide)",	5120,	2880,	1 }, // New wide mode added
+	{ "Mode 17: 7680x4320 (wide)",	7680,	4320,	1 }  // New wide mode added
 };
 static int	s_numVidModes = ( sizeof( r_vidModes ) / sizeof( r_vidModes[0] ) );
 
